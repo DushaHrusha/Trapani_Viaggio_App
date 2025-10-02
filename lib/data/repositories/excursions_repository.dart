@@ -1,0 +1,115 @@
+import 'package:flutter/material.dart';
+import '../models/excursion_model.dart';
+
+class ExcursionsRepository {
+  List<Excursion> excursions = [
+    Excursion(
+      id: 1,
+      title: 'Salines of Trapani',
+      imageUrl: [
+        "assets/images/4d9af35e96479be6c8019133873dffd663da2777.jpg",
+        "assets/images/4d9af35e96479be6c8019133873dffd663da2777.jpg",
+        "assets/images/4d9af35e96479be6c8019133873dffd663da2777.jpg",
+        "assets/images/4d9af35e96479be6c8019133873dffd663da2777.jpg",
+        "assets/images/4d9af35e96479be6c8019133873dffd663da2777.jpg",
+      ],
+      description:
+          'Most popular bicycle tour to Natural Reserve Salt pans in Trapani. You will visit saline work museum in an old salt mill and enjoy fantastic landscapes.',
+      price: 30,
+      rating: 7.6,
+      iconServices: [
+        Icons.coffee,
+        Icons.cloud,
+        Icons.family_restroom,
+        Icons.credit_card,
+        Icons.directions_bike_outlined,
+        Icons.cloud,
+      ],
+      numberReviews: 156,
+      address: "Grand Canyon Village, Arizona 86023, United States",
+      duration: 6,
+      startingTime: DateTime(2025, 9, 15, 8),
+      sights: <String>[
+        "Explore South Rim viewpoints",
+        "Hike scenic trails",
+        "Learn about canyon geology",
+        "Wildlife observation",
+      ],
+      notIncluded: <String>["Personal equipment", "Travel insurance", "Lunch"],
+      transfer: 'Hotel pickup - Grand Canyon - Visitor Center - Return',
+      takeWithYou: 'Hiking boots, water bottle, sunscreen, camera',
+    ),
+    Excursion(
+      id: 2,
+      title: 'Old city Segesta & Selinunte',
+      imageUrl: [
+        "assets/images/449673f462411718a7fd48c69ad4cea912c5c9e1.jpg",
+        "assets/images/449673f462411718a7fd48c69ad4cea912c5c9e1.jpg",
+        "assets/images/449673f462411718a7fd48c69ad4cea912c5c9e1.jpg",
+        "assets/images/449673f462411718a7fd48c69ad4cea912c5c9e1.jpg",
+        "assets/images/449673f462411718a7fd48c69ad4cea912c5c9e1.jpg",
+      ],
+      description:
+          'Exclusive tour to Segesta and Selinunte, the most beautiful archeological cites of Sicily. Comfortable travel bus excursion.',
+      price: 110,
+      rating: 5.3,
+      iconServices: [
+        Icons.cloud,
+        Icons.coffee,
+        Icons.family_restroom,
+        Icons.credit_card,
+        Icons.directions_bike_outlined,
+        Icons.wifi,
+        Icons.cloud,
+      ],
+      numberReviews: 243,
+      address: "Aguas Calientes, Cusco Region, Peru",
+      duration: 7,
+      startingTime: DateTime(2025, 9, 0, 0),
+      sights: <String>[
+        " Visit Selinunte and Segesta",
+        "Enjoy a full day tour",
+        "Explore the history of Sicily",
+      ],
+      notIncluded: <String>["Entry tickets", "Alcohol", "Dinner"],
+      transfer: 'Hotel — Port Trapani — Airport Trapani — City of Trapani.',
+      takeWithYou: 'Comfortable shoes, swimsuit.',
+    ),
+    Excursion(
+      id: 10,
+      title: 'Erice and it’s castles',
+      imageUrl: [
+        "assets/images/38770fd18d375d12b5700b1d25ce697ea1d61565.jpg",
+        "assets/images/38770fd18d375d12b5700b1d25ce697ea1d61565.jpg",
+        "assets/images/38770fd18d375d12b5700b1d25ce697ea1d61565.jpg",
+        "assets/images/38770fd18d375d12b5700b1d25ce697ea1d61565.jpg",
+        "assets/images/38770fd18d375d12b5700b1d25ce697ea1d61565.jpg",
+      ],
+      description:
+          'Exclusive tour to Segesta and Selinunte, the most beautiful archeological cites of Sicily. Comfortable travel bus excursion.',
+      price: 50,
+      rating: 5.3,
+      iconServices: [
+        Icons.cloud,
+        Icons.coffee,
+        Icons.family_restroom,
+        Icons.credit_card,
+        Icons.directions_bike_outlined,
+        Icons.cloud,
+      ],
+      numberReviews: 204,
+      address: "Aguas Calientes, Cusco Region, Peru",
+      duration: 8,
+      startingTime: DateTime(2025, 9, 20, 6),
+      sights: <String>[
+        "Explore Inca citadel",
+        "Guided archaeological tour",
+        "Panoramic mountain views",
+        "Traditional Peruvian lunch",
+      ],
+      notIncluded: <String>["Personal gear", "Extra snacks", "Souvenirs"],
+      transfer: 'Cusco - Train to Aguas Calientes - Machu Picchu - Return',
+      takeWithYou: 'Comfortable walking shoes, rain jacket, hat, water',
+    ),
+  ];
+}
